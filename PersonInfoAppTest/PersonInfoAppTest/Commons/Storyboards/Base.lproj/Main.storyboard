@@ -369,6 +369,14 @@
                             <constraint firstItem="osn-OR-Xq9" firstAttribute="centerY" secondItem="8K4-s3-BzD" secondAttribute="centerY" id="RuL-8n-97o"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="ageLabel" destination="IDT-MN-ONR" id="WFs-nH-Y0r"/>
+                        <outlet property="firstNameLabel" destination="I8c-bM-CNM" id="2n6-rn-eXg"/>
+                        <outlet property="genderLabel" destination="0eE-F8-oAr" id="Jdi-dd-JA4"/>
+                        <outlet property="identifierLabel" destination="vQo-rF-iol" id="hnH-Ek-woE"/>
+                        <outlet property="lastNameLabel" destination="FyW-dI-qvb" id="stI-Y8-kyy"/>
+                        <outlet property="personIconImageView" destination="PHw-XH-Dms" id="SAL-Sd-jjQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Kb-vc-1m0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+protocol PersonInfoViewModel {
+
+    func loadData(_ completion: @escaping (PersonInfoData) -> Void)
+}
