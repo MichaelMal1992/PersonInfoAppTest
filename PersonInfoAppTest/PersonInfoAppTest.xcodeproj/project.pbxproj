@@ -89,8 +89,8 @@
 				845567A027049370006FF148 /* Scenes */,
 				845567CA27049892006FF148 /* Managers */,
 				845567CB27049896006FF148 /* CustomClass */,
-				8455679A27049249006FF148 /* Resourses */,
 				8455679927049225006FF148 /* Commons */,
+				8455679A27049249006FF148 /* Resourses */,
 			);
 			path = PersonInfoAppTest;
 			sourceTree = "<group>";
@@ -98,8 +98,8 @@
 		8455679927049225006FF148 /* Commons */ = {
 			isa = PBXGroup;
 			children = (
-				8455679C270492CF006FF148 /* Delegates */,
 				8455679B270492B1006FF148 /* Storyboards */,
+				8455679C270492CF006FF148 /* Delegates */,
 			);
 			path = Commons;
 			sourceTree = "<group>";
@@ -116,8 +116,8 @@
 		8455679B270492B1006FF148 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				8455678B270488EC006FF148 /* LaunchScreen.storyboard */,
 				84556786270488E7006FF148 /* Main.storyboard */,
+				8455678B270488EC006FF148 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
