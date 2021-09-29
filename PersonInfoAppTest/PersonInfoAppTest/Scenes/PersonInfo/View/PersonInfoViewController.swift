@@ -51,6 +51,9 @@ class PersonInfoViewController: UIViewController {
         super.viewWillAppear(animated)
         viewModel?.loadData { [weak self] person in
             self?.person = person
+            self?.viewModel?.loadImage(avatar: person.avatar, { image in
+                self?.personIconImageView.image = image
+            })
         }
     }
 }

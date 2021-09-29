@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 class HTTPClient {
 
@@ -40,6 +41,29 @@ class HTTPClient {
                     completion(.failure(error))
                 }
                 return
+            }
+        }
+        task.resume()
+    }
+
+    func downloadImage(_ avatar: String, queue: DispatchQueue = .main,
+                       _ completion: @escaping (Result<UIImage?, Error>) -> Void) {
+        let string = avatar.replacingOccurrences(of: "u0026set=set1", with: "")
+        guard let url = URL(string: string) else {
+            return
+        }
+        let request = URLRequest(url: url)
+        let task = URLSession.shared.dataTask(with: request) { data, _, error in
+            if let error = error {
+                queue.async {
+                    completion(.failure(error))
+                }
+            }
+            if let data = data {
+                let image = UIImage(data: data)
+                queue.async {
+                    completion(.success(image))
+                }
             }
         }
         task.resume()

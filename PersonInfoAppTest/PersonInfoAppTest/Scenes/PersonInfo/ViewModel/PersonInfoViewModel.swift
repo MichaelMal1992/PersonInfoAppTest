@@ -6,8 +6,11 @@
 //
 
 import Foundation
+import UIKit
 
 protocol PersonInfoViewModel {
 
     func loadData(_ completion: @escaping (PersonInfoData) -> Void)
+
+    func loadImage(avatar: String, _ completion: @escaping (UIImage?) -> Void)
 }
