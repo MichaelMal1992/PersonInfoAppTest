@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+protocol TableViewModel {
+
+    func loadRequest(_ completion: @escaping ([TablePersonData]) -> Void)
+}

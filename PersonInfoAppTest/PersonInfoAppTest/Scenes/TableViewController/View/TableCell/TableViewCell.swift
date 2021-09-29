@@ -11,4 +11,10 @@ class TableViewCell: UITableViewCell {
 
     static let identifier = String(describing: TableViewCell.self)
 
+    @IBOutlet weak var genderLabel: UILabel!
+
+    @IBOutlet weak var nameLabel: UILabel!
+
+    @IBOutlet weak var ageLabel: UILabel!
+
 }

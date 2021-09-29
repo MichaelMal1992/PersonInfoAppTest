@@ -88,11 +88,17 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="24.5" height="33"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <state key="normal" title="M"/>
+                                                <connections>
+                                                    <action selector="showOnlyMansButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DlT-4w-3Yb"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ifo-ac-whe" customClass="OnlyWomansButton" customModule="TestApp" customModuleProvider="target">
                                                 <rect key="frame" x="24.5" y="0.0" width="24.5" height="33"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <state key="normal" title="F"/>
+                                                <connections>
+                                                    <action selector="showOnlyWomansButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ixh-e3-FQC"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xgt-cg-HAA" customClass="SortedAgeButton" customModule="TestApp" customModuleProvider="target">
                                                 <rect key="frame" x="49" y="0.0" width="43" height="33"/>
@@ -100,6 +106,9 @@
                                                 <state key="normal" title="age" image="arrow.up.arrow.down" catalog="system">
                                                     <color key="titleColor" systemColor="systemBlueColor"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="showSortedAgeButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bB7-W9-u9h"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -115,6 +124,13 @@
                         </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="activityIndicator" destination="Evf-zp-0TV" id="L03-a9-hKy"/>
+                        <outlet property="personInfoTableView" destination="fJT-c6-ITL" id="a3D-fd-iKS"/>
+                        <outlet property="showOnlyMansButton" destination="HDE-23-Egu" id="wU4-Yv-STe"/>
+                        <outlet property="showOnlyWomansButton" destination="Ifo-ac-whe" id="OPk-EQ-eHW"/>
+                        <outlet property="showSortedAgeButton" destination="xgt-cg-HAA" id="5M4-TH-0Wf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
