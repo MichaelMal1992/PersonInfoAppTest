@@ -9,21 +9,51 @@
 /* Begin PBXBuildFile section */
 		84556781270488E7006FF148 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84556780270488E7006FF148 /* AppDelegate.swift */; };
 		84556783270488E7006FF148 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84556782270488E7006FF148 /* SceneDelegate.swift */; };
-		84556785270488E7006FF148 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84556784270488E7006FF148 /* ViewController.swift */; };
+		84556785270488E7006FF148 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84556784270488E7006FF148 /* TableViewController.swift */; };
 		84556788270488E7006FF148 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84556786270488E7006FF148 /* Main.storyboard */; };
 		8455678A270488EC006FF148 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84556789270488EC006FF148 /* Assets.xcassets */; };
 		8455678D270488EC006FF148 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8455678B270488EC006FF148 /* LaunchScreen.storyboard */; };
+		845567A327049503006FF148 /* TablePersonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845567A227049503006FF148 /* TablePersonData.swift */; };
+		845567A72704958A006FF148 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845567A52704958A006FF148 /* TableViewCell.swift */; };
+		845567A82704958A006FF148 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845567A62704958A006FF148 /* TableViewCell.xib */; };
+		845567AA27049659006FF148 /* TableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845567A927049659006FF148 /* TableViewModel.swift */; };
+		845567AC2704966D006FF148 /* TableViewModelImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845567AB2704966D006FF148 /* TableViewModelImplementation.swift */; };
+		845567B3270496F3006FF148 /* CollectionPersonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845567B2270496F3006FF148 /* CollectionPersonData.swift */; };
+		845567B527049734006FF148 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845567B427049734006FF148 /* CollectionViewController.swift */; };
+		845567B92704977A006FF148 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845567B72704977A006FF148 /* CollectionViewCell.swift */; };
+		845567BA2704977A006FF148 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845567B82704977A006FF148 /* CollectionViewCell.xib */; };
+		845567BC270497B5006FF148 /* CollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845567BB270497B5006FF148 /* CollectionViewModel.swift */; };
+		845567BE270497C5006FF148 /* CollectionViewModelImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845567BD270497C5006FF148 /* CollectionViewModelImplementation.swift */; };
+		845567C327049813006FF148 /* PersonInfoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845567C227049813006FF148 /* PersonInfoData.swift */; };
+		845567C527049843006FF148 /* PersonInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845567C427049843006FF148 /* PersonInfoViewController.swift */; };
+		845567C727049863006FF148 /* PersonInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845567C627049863006FF148 /* PersonInfoViewModel.swift */; };
+		845567C927049873006FF148 /* PersonInfoViewModelImplemetation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845567C827049873006FF148 /* PersonInfoViewModelImplemetation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8455677D270488E7006FF148 /* PersonInfoAppTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonInfoAppTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84556780270488E7006FF148 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84556782270488E7006FF148 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84556784270488E7006FF148 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84556784270488E7006FF148 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		84556787270488E7006FF148 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84556789270488EC006FF148 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8455678C270488EC006FF148 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8455678E270488EC006FF148 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845567A227049503006FF148 /* TablePersonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TablePersonData.swift; sourceTree = "<group>"; };
+		845567A52704958A006FF148 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		845567A62704958A006FF148 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		845567A927049659006FF148 /* TableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModel.swift; sourceTree = "<group>"; };
+		845567AB2704966D006FF148 /* TableViewModelImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModelImplementation.swift; sourceTree = "<group>"; };
+		845567B2270496F3006FF148 /* CollectionPersonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionPersonData.swift; sourceTree = "<group>"; };
+		845567B427049734006FF148 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		845567B72704977A006FF148 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		845567B82704977A006FF148 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		845567BB270497B5006FF148 /* CollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewModel.swift; sourceTree = "<group>"; };
+		845567BD270497C5006FF148 /* CollectionViewModelImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewModelImplementation.swift; sourceTree = "<group>"; };
+		845567C227049813006FF148 /* PersonInfoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInfoData.swift; sourceTree = "<group>"; };
+		845567C427049843006FF148 /* PersonInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInfoViewController.swift; sourceTree = "<group>"; };
+		845567C627049863006FF148 /* PersonInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInfoViewModel.swift; sourceTree = "<group>"; };
+		845567C827049873006FF148 /* PersonInfoViewModelImplemetation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInfoViewModelImplemetation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +86,198 @@
 		8455677F270488E7006FF148 /* PersonInfoAppTest */ = {
 			isa = PBXGroup;
 			children = (
-				84556780270488E7006FF148 /* AppDelegate.swift */,
-				84556782270488E7006FF148 /* SceneDelegate.swift */,
-				84556784270488E7006FF148 /* ViewController.swift */,
-				84556786270488E7006FF148 /* Main.storyboard */,
-				84556789270488EC006FF148 /* Assets.xcassets */,
-				8455678B270488EC006FF148 /* LaunchScreen.storyboard */,
-				8455678E270488EC006FF148 /* Info.plist */,
+				845567A027049370006FF148 /* Scenes */,
+				845567CA27049892006FF148 /* Managers */,
+				845567CB27049896006FF148 /* CustomClass */,
+				8455679A27049249006FF148 /* Resourses */,
+				8455679927049225006FF148 /* Commons */,
 			);
 			path = PersonInfoAppTest;
+			sourceTree = "<group>";
+		};
+		8455679927049225006FF148 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				8455679C270492CF006FF148 /* Delegates */,
+				8455679B270492B1006FF148 /* Storyboards */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		8455679A27049249006FF148 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				84556789270488EC006FF148 /* Assets.xcassets */,
+				8455678E270488EC006FF148 /* Info.plist */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		8455679B270492B1006FF148 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8455678B270488EC006FF148 /* LaunchScreen.storyboard */,
+				84556786270488E7006FF148 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		8455679C270492CF006FF148 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				84556780270488E7006FF148 /* AppDelegate.swift */,
+				84556782270488E7006FF148 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		8455679D2704934B006FF148 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				845567A927049659006FF148 /* TableViewModel.swift */,
+				845567AB2704966D006FF148 /* TableViewModelImplementation.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8455679E2704934F006FF148 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84556784270488E7006FF148 /* TableViewController.swift */,
+				845567A42704956A006FF148 /* TableCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8455679F27049352006FF148 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				845567A227049503006FF148 /* TablePersonData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		845567A027049370006FF148 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				845567A127049379006FF148 /* TableViewController */,
+				845567AE27049682006FF148 /* CollectionViewController */,
+				845567AD2704967E006FF148 /* PersonInfo */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		845567A127049379006FF148 /* TableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8455679F27049352006FF148 /* Model */,
+				8455679E2704934F006FF148 /* View */,
+				8455679D2704934B006FF148 /* ViewModel */,
+			);
+			path = TableViewController;
+			sourceTree = "<group>";
+		};
+		845567A42704956A006FF148 /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				845567A52704958A006FF148 /* TableViewCell.swift */,
+				845567A62704958A006FF148 /* TableViewCell.xib */,
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
+		845567AD2704967E006FF148 /* PersonInfo */ = {
+			isa = PBXGroup;
+			children = (
+				845567C1270497E9006FF148 /* Model */,
+				845567C0270497E8006FF148 /* View */,
+				845567BF270497E6006FF148 /* ViewModel */,
+			);
+			path = PersonInfo;
+			sourceTree = "<group>";
+		};
+		845567AE27049682006FF148 /* CollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				845567AF270496A9006FF148 /* Model */,
+				845567B1270496B4006FF148 /* View */,
+				845567B0270496B2006FF148 /* ViewModel */,
+			);
+			path = CollectionViewController;
+			sourceTree = "<group>";
+		};
+		845567AF270496A9006FF148 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				845567B2270496F3006FF148 /* CollectionPersonData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		845567B0270496B2006FF148 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				845567BB270497B5006FF148 /* CollectionViewModel.swift */,
+				845567BD270497C5006FF148 /* CollectionViewModelImplementation.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		845567B1270496B4006FF148 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				845567B427049734006FF148 /* CollectionViewController.swift */,
+				845567B627049748006FF148 /* CollectionCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		845567B627049748006FF148 /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				845567B72704977A006FF148 /* CollectionViewCell.swift */,
+				845567B82704977A006FF148 /* CollectionViewCell.xib */,
+			);
+			path = CollectionCell;
+			sourceTree = "<group>";
+		};
+		845567BF270497E6006FF148 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				845567C627049863006FF148 /* PersonInfoViewModel.swift */,
+				845567C827049873006FF148 /* PersonInfoViewModelImplemetation.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		845567C0270497E8006FF148 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				845567C427049843006FF148 /* PersonInfoViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		845567C1270497E9006FF148 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				845567C227049813006FF148 /* PersonInfoData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		845567CA27049892006FF148 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		845567CB27049896006FF148 /* CustomClass */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +338,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8455678D270488EC006FF148 /* LaunchScreen.storyboard in Resources */,
+				845567A82704958A006FF148 /* TableViewCell.xib in Resources */,
 				8455678A270488EC006FF148 /* Assets.xcassets in Resources */,
 				84556788270488E7006FF148 /* Main.storyboard in Resources */,
+				845567BA2704977A006FF148 /* CollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +352,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84556785270488E7006FF148 /* ViewController.swift in Sources */,
+				845567C327049813006FF148 /* PersonInfoData.swift in Sources */,
+				845567BE270497C5006FF148 /* CollectionViewModelImplementation.swift in Sources */,
+				845567C727049863006FF148 /* PersonInfoViewModel.swift in Sources */,
+				845567B92704977A006FF148 /* CollectionViewCell.swift in Sources */,
+				845567B527049734006FF148 /* CollectionViewController.swift in Sources */,
+				845567A72704958A006FF148 /* TableViewCell.swift in Sources */,
+				845567C527049843006FF148 /* PersonInfoViewController.swift in Sources */,
+				84556785270488E7006FF148 /* TableViewController.swift in Sources */,
+				845567C927049873006FF148 /* PersonInfoViewModelImplemetation.swift in Sources */,
+				845567B3270496F3006FF148 /* CollectionPersonData.swift in Sources */,
+				845567A327049503006FF148 /* TablePersonData.swift in Sources */,
+				845567AC2704966D006FF148 /* TableViewModelImplementation.swift in Sources */,
+				845567BC270497B5006FF148 /* CollectionViewModel.swift in Sources */,
+				845567AA27049659006FF148 /* TableViewModel.swift in Sources */,
 				84556781270488E7006FF148 /* AppDelegate.swift in Sources */,
 				84556783270488E7006FF148 /* SceneDelegate.swift in Sources */,
 			);
@@ -288,7 +516,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42L4BWH76Z;
-				INFOPLIST_FILE = PersonInfoAppTest/Info.plist;
+				INFOPLIST_FILE = PersonInfoAppTest/Resourses/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +535,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42L4BWH76Z;
-				INFOPLIST_FILE = PersonInfoAppTest/Info.plist;
+				INFOPLIST_FILE = PersonInfoAppTest/Resourses/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
