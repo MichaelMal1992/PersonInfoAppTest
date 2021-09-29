@@ -28,6 +28,9 @@
 		845567C527049843006FF148 /* PersonInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845567C427049843006FF148 /* PersonInfoViewController.swift */; };
 		845567C727049863006FF148 /* PersonInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845567C627049863006FF148 /* PersonInfoViewModel.swift */; };
 		845567C927049873006FF148 /* PersonInfoViewModelImplemetation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845567C827049873006FF148 /* PersonInfoViewModelImplemetation.swift */; };
+		845567CD2704A227006FF148 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845567CC2704A227006FF148 /* HTTPClient.swift */; };
+		845567CF2704A292006FF148 /* ViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845567CE2704A292006FF148 /* ViewControllerFactory.swift */; };
+		845567D12704A2C5006FF148 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845567D02704A2C5006FF148 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +57,9 @@
 		845567C427049843006FF148 /* PersonInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInfoViewController.swift; sourceTree = "<group>"; };
 		845567C627049863006FF148 /* PersonInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInfoViewModel.swift; sourceTree = "<group>"; };
 		845567C827049873006FF148 /* PersonInfoViewModelImplemetation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInfoViewModelImplemetation.swift; sourceTree = "<group>"; };
+		845567CC2704A227006FF148 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		845567CE2704A292006FF148 /* ViewControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerFactory.swift; sourceTree = "<group>"; };
+		845567D02704A2C5006FF148 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -269,6 +275,9 @@
 		845567CA27049892006FF148 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				845567CC2704A227006FF148 /* HTTPClient.swift */,
+				845567CE2704A292006FF148 /* ViewControllerFactory.swift */,
+				845567D02704A2C5006FF148 /* DataManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -354,6 +363,8 @@
 			files = (
 				845567C327049813006FF148 /* PersonInfoData.swift in Sources */,
 				845567BE270497C5006FF148 /* CollectionViewModelImplementation.swift in Sources */,
+				845567CD2704A227006FF148 /* HTTPClient.swift in Sources */,
+				845567CF2704A292006FF148 /* ViewControllerFactory.swift in Sources */,
 				845567C727049863006FF148 /* PersonInfoViewModel.swift in Sources */,
 				845567B92704977A006FF148 /* CollectionViewCell.swift in Sources */,
 				845567B527049734006FF148 /* CollectionViewController.swift in Sources */,
@@ -364,6 +375,7 @@
 				845567B3270496F3006FF148 /* CollectionPersonData.swift in Sources */,
 				845567A327049503006FF148 /* TablePersonData.swift in Sources */,
 				845567AC2704966D006FF148 /* TableViewModelImplementation.swift in Sources */,
+				845567D12704A2C5006FF148 /* DataManager.swift in Sources */,
 				845567BC270497B5006FF148 /* CollectionViewModel.swift in Sources */,
 				845567AA27049659006FF148 /* TableViewModel.swift in Sources */,
 				84556781270488E7006FF148 /* AppDelegate.swift in Sources */,
