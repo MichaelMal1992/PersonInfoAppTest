@@ -55,32 +55,34 @@ class TableViewController: UIViewController {
     }
 
     @IBAction
-    private func showOnlyMansButtonPressed(_ sender: OnlyMansButton) {
+    private func showOnlyMansButtonPressed(_ sender: UIButton) {
         sender.isSelected = !sender.isSelected
-        sender.selected {
-            self.setupSelected("M", enabledFalse: self.showOnlyWomansButton)
-        } notSelected: {
-            self.setupNotSelected(enabledTrue: self.showOnlyWomansButton)
+        if sender.isSelected {
+            setupSelected("M", enabledFalse: showOnlyWomansButton)
+        } else {
+            setupNotSelected(enabledTrue: showOnlyWomansButton)
         }
     }
 
     @IBAction
-    private func showOnlyWomansButtonPressed(_ sender: OnlyWomansButton) {
+    private func showOnlyWomansButtonPressed(_ sender: UIButton) {
         sender.isSelected = !sender.isSelected
-        sender.selected {
-            self.setupSelected("F", enabledFalse: self.showOnlyMansButton)
-        } notSelected: {
-            self.setupNotSelected(enabledTrue: self.showOnlyMansButton)
+        if sender.isSelected {
+            setupSelected("F", enabledFalse: showOnlyMansButton)
+        } else {
+            setupNotSelected(enabledTrue: showOnlyMansButton)
         }
     }
 
     @IBAction
-    private func showSortedAgeButtonPressed(_ sender: SortedAgeButton) {
+    private func showSortedAgeButtonPressed(_ sender: UIButton) {
         sender.isSelected = !sender.isSelected
-        sender.selected {
-            self.personData.sort { $0.age > $1.age }
-        } notSelected: {
-            self.personData.sort { $0.age < $1.age }
+        if sender.isSelected {
+            sender.setImage(arrrowDownImage, for: .normal)
+            personData.sort { $0.age > $1.age }
+        } else {
+            sender.setImage(arrrowUpImage, for: .normal)
+            personData.sort { $0.age < $1.age }
         }
     }
 

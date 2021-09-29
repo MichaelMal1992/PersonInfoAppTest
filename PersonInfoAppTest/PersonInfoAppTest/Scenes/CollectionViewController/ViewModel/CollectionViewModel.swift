@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+protocol CollectionViewModel {
+
+    func loadRequest(_ completion: @escaping ([CollectionPersonData]) -> Void)
+}

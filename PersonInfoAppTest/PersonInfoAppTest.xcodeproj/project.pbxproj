@@ -31,9 +31,6 @@
 		845567CD2704A227006FF148 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845567CC2704A227006FF148 /* HTTPClient.swift */; };
 		845567CF2704A292006FF148 /* ViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845567CE2704A292006FF148 /* ViewControllerFactory.swift */; };
 		845567D12704A2C5006FF148 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845567D02704A2C5006FF148 /* DataManager.swift */; };
-		845567D42704A7D6006FF148 /* SortedAgeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845567D32704A7D6006FF148 /* SortedAgeButton.swift */; };
-		845567D62704A7E5006FF148 /* OnlyMansButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845567D52704A7E5006FF148 /* OnlyMansButton.swift */; };
-		845567D82704A7F2006FF148 /* OnlyWomansButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845567D72704A7F2006FF148 /* OnlyWomansButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,9 +60,6 @@
 		845567CC2704A227006FF148 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		845567CE2704A292006FF148 /* ViewControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerFactory.swift; sourceTree = "<group>"; };
 		845567D02704A2C5006FF148 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
-		845567D32704A7D6006FF148 /* SortedAgeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortedAgeButton.swift; sourceTree = "<group>"; };
-		845567D52704A7E5006FF148 /* OnlyMansButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlyMansButton.swift; sourceTree = "<group>"; };
-		845567D72704A7F2006FF148 /* OnlyWomansButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlyWomansButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +94,6 @@
 			children = (
 				845567A027049370006FF148 /* Scenes */,
 				845567CA27049892006FF148 /* Managers */,
-				845567CB27049896006FF148 /* CustomClass */,
 				8455679927049225006FF148 /* Commons */,
 				8455679A27049249006FF148 /* Resourses */,
 			);
@@ -288,24 +281,6 @@
 			path = Managers;
 			sourceTree = "<group>";
 		};
-		845567CB27049896006FF148 /* CustomClass */ = {
-			isa = PBXGroup;
-			children = (
-				845567D22704A7BD006FF148 /* UIButton */,
-			);
-			path = CustomClass;
-			sourceTree = "<group>";
-		};
-		845567D22704A7BD006FF148 /* UIButton */ = {
-			isa = PBXGroup;
-			children = (
-				845567D32704A7D6006FF148 /* SortedAgeButton.swift */,
-				845567D52704A7E5006FF148 /* OnlyMansButton.swift */,
-				845567D72704A7F2006FF148 /* OnlyWomansButton.swift */,
-			);
-			path = UIButton;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -382,7 +357,6 @@
 				845567BE270497C5006FF148 /* CollectionViewModelImplementation.swift in Sources */,
 				845567CD2704A227006FF148 /* HTTPClient.swift in Sources */,
 				845567CF2704A292006FF148 /* ViewControllerFactory.swift in Sources */,
-				845567D82704A7F2006FF148 /* OnlyWomansButton.swift in Sources */,
 				845567C727049863006FF148 /* PersonInfoViewModel.swift in Sources */,
 				845567B92704977A006FF148 /* CollectionViewCell.swift in Sources */,
 				845567B527049734006FF148 /* CollectionViewController.swift in Sources */,
@@ -394,11 +368,9 @@
 				845567A327049503006FF148 /* TablePersonData.swift in Sources */,
 				845567AC2704966D006FF148 /* TableViewModelImplementation.swift in Sources */,
 				845567D12704A2C5006FF148 /* DataManager.swift in Sources */,
-				845567D62704A7E5006FF148 /* OnlyMansButton.swift in Sources */,
 				845567BC270497B5006FF148 /* CollectionViewModel.swift in Sources */,
 				845567AA27049659006FF148 /* TableViewModel.swift in Sources */,
 				84556781270488E7006FF148 /* AppDelegate.swift in Sources */,
-				845567D42704A7D6006FF148 /* SortedAgeButton.swift in Sources */,
 				84556783270488E7006FF148 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

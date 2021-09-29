@@ -84,36 +84,50 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="TWY-Ad-hnR">
                                         <rect key="frame" x="0.0" y="0.0" width="92" height="33"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HDE-23-Egu" customClass="OnlyMansButton" customModule="TestApp" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="24.5" height="33"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HDE-23-Egu">
+                                                <rect key="frame" x="0.0" y="0.0" width="23.5" height="33"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <state key="normal" title="M"/>
                                                 <connections>
                                                     <action selector="showOnlyMansButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DlT-4w-3Yb"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ifo-ac-whe" customClass="OnlyWomansButton" customModule="TestApp" customModuleProvider="target">
-                                                <rect key="frame" x="24.5" y="0.0" width="24.5" height="33"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ifo-ac-whe">
+                                                <rect key="frame" x="23.5" y="0.0" width="23.5" height="33"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <state key="normal" title="F"/>
                                                 <connections>
                                                     <action selector="showOnlyWomansButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ixh-e3-FQC"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xgt-cg-HAA" customClass="SortedAgeButton" customModule="TestApp" customModuleProvider="target">
-                                                <rect key="frame" x="49" y="0.0" width="43" height="33"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <state key="normal" title="age" image="arrow.up.arrow.down" catalog="system">
-                                                    <color key="titleColor" systemColor="systemBlueColor"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="showSortedAgeButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bB7-W9-u9h"/>
-                                                </connections>
-                                            </button>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="de9-j1-oCQ">
+                                                <rect key="frame" x="47" y="0.0" width="45" height="33"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="age" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TLz-AP-3yK">
+                                                        <rect key="frame" x="0.0" y="0.0" width="22.5" height="33"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" systemColor="systemBlueColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xgt-cg-HAA">
+                                                        <rect key="frame" x="22.5" y="0.0" width="22.5" height="33"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <state key="normal" image="arrow.up.arrow.down" catalog="system">
+                                                            <color key="titleColor" systemColor="systemBlueColor"/>
+                                                        </state>
+                                                        <state key="selected">
+                                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="showSortedAgeButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bB7-W9-u9h"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
                                         </subviews>
                                     </stackView>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="TWY-Ad-hnR" secondAttribute="bottom" id="G36-NP-I3x"/>
                                     <constraint firstAttribute="trailing" secondItem="TWY-Ad-hnR" secondAttribute="trailing" id="H8J-LO-K0d"/>
@@ -182,7 +196,7 @@
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Sns-yZ-uBB">
                                 <rect key="frame" x="0.0" y="88" width="414" height="725"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="f3K-TA-Cz6">
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="f3K-TA-Cz6">
                                     <size key="itemSize" width="128" height="128"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -215,27 +229,47 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="d3m-is-CN9">
                                         <rect key="frame" x="0.0" y="0.0" width="92" height="33"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wzt-7f-U3w" customClass="OnlyMansButton" customModule="TestApp" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="24.5" height="33"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wzt-7f-U3w">
+                                                <rect key="frame" x="0.0" y="0.0" width="23.5" height="33"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <state key="normal" title="M"/>
+                                                <connections>
+                                                    <action selector="showOnlyMansButtonPressed:" destination="cRd-dF-GsS" eventType="touchUpInside" id="FP6-Pn-rme"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zSE-0C-6UR" customClass="OnlyWomansButton" customModule="TestApp" customModuleProvider="target">
-                                                <rect key="frame" x="24.5" y="0.0" width="24.5" height="33"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zSE-0C-6UR">
+                                                <rect key="frame" x="23.5" y="0.0" width="23.5" height="33"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <state key="normal" title="F"/>
+                                                <connections>
+                                                    <action selector="showOnlyWomansButtonPressed:" destination="cRd-dF-GsS" eventType="touchUpInside" id="Z9X-Xc-IPv"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wS4-Lu-Azi" customClass="SortedAgeButton" customModule="TestApp" customModuleProvider="target">
-                                                <rect key="frame" x="49" y="0.0" width="43" height="33"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <state key="normal" title="age" image="arrow.up.arrow.down" catalog="system">
-                                                    <color key="titleColor" systemColor="systemBlueColor"/>
-                                                </state>
-                                            </button>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="EWS-B2-X05">
+                                                <rect key="frame" x="47" y="0.0" width="45" height="33"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="age" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uUB-k6-Uy2">
+                                                        <rect key="frame" x="0.0" y="0.0" width="22.5" height="33"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" systemColor="systemBlueColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wS4-Lu-Azi">
+                                                        <rect key="frame" x="22.5" y="0.0" width="22.5" height="33"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <state key="normal" image="arrow.up.arrow.down" catalog="system">
+                                                            <color key="titleColor" systemColor="systemBlueColor"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="showSortedAgeButtonPressed:" destination="cRd-dF-GsS" eventType="touchUpInside" id="YNJ-Ll-crM"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
                                         </subviews>
                                     </stackView>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="d3m-is-CN9" secondAttribute="bottom" id="0U6-yT-Ykk"/>
                                     <constraint firstItem="d3m-is-CN9" firstAttribute="top" secondItem="BsZ-FH-8F6" secondAttribute="top" id="3aF-dy-rpr"/>
@@ -246,6 +280,13 @@
                         </barButtonItem>
                     </navigationItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="activityIndicator" destination="pbC-gV-Nlw" id="u1n-0x-ekY"/>
+                        <outlet property="personInfoCollectionView" destination="Sns-yZ-uBB" id="KYD-ry-3wN"/>
+                        <outlet property="showOnlyMansButton" destination="wzt-7f-U3w" id="Se2-WP-tnk"/>
+                        <outlet property="showOnlyWomansButton" destination="zSE-0C-6UR" id="9cS-LJ-kfC"/>
+                        <outlet property="showSortedAgeButton" destination="wS4-Lu-Azi" id="zyq-9L-wm6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zJ1-dt-fHD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
